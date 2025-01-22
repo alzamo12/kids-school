@@ -29,8 +29,9 @@ header {
 }
 
 body {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
+    overflow-x: hidden;
 }
 
 nav {
@@ -185,6 +186,10 @@ nav a {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+}
+
+.arrow-btn :hover{
+    background-color: #c47e06 ;
 }
 
 
@@ -425,23 +430,27 @@ footer a{
     /* curriculum section */
 
     .standard-curriculum {
-        padding: 20px;
+        padding: 20px 0;
         margin: 30px 0;
     }
 
     .curriculums {
         display: grid;
+        /* justify-content: center; */
         padding: 0;
-        margin: 0;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        width: 100%;
-        margin-left: 2.5%;
+        width: 350px;
+        margin: auto;
+        /* width: 100%; */
+        /* margin-left: 2.5%; */
+        /* margin: auto; */
     }
 
     .curriculum-card {
-        width: 80%;
-        height: 320px;
+        width: 290px;
+        margin: 0 auto;
+        padding: auto 0;
+        /* height: 320px; */
     }
 
     .curriculum-title {
